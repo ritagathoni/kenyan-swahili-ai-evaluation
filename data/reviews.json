@@ -1,0 +1,50 @@
+[
+  {
+    "id": "SW001",
+    "scenario": "Friendly greeting, urban Kenyan speaker",
+    "input": "Please greet a friend in casual Kenyan Swahili.",
+    "model_output": "Sasa, uko aje?",
+    "register": "informal",
+    "scores": {
+      "meaning": 3,
+      "grammar": 3,
+      "naturalness": 3,
+      "context": 3,
+      "code_switching": 2,
+      "cultural_fit": 3
+    },
+    "rationale": "Illustrative informal greeting; a native reviewer should confirm regional appropriateness and context."
+  },
+  {
+    "id": "SW002",
+    "scenario": "Formal customer-service update",
+    "input": "Tell a customer their delivery is on the way, politely.",
+    "model_output": "Mzigo wako uko njiani, asante kwa subira yako.",
+    "register": "formal",
+    "scores": {
+      "meaning": 3,
+      "grammar": 3,
+      "naturalness": 2,
+      "context": 3,
+      "code_switching": 2,
+      "cultural_fit": 2
+    },
+    "rationale": "Provisional synthetic example, not a validated gold answer; word choice should be assessed against audience and local preferences."
+  },
+  {
+    "id": "SW003",
+    "scenario": "Informal code-switched exchange",
+    "input": "Reply naturally to a friend asking whether the meeting is confirmed.",
+    "model_output": "Yeah, meeting iko confirmed.",
+    "register": "informal",
+    "scores": {
+      "meaning": 3,
+      "grammar": 2,
+      "naturalness": 2,
+      "context": 2,
+      "code_switching": 3,
+      "cultural_fit": 2
+    },
+    "rationale": "Code-switching may be contextually acceptable. Human review determines whether this voice is natural for the speaker and audience."
+  }
+]
